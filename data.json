@@ -2,10 +2,10 @@
 
 {
   "R.E.P.O": {
-    "artwork": "https://example.com/ow2_vertical.png",
-    "wider_screen": "https://example.com/ow2_wide.png",
-    "hero": "https://example.com/ow2_hero.png",
-    "logo": "https://example.com/ow2_logo.png"
+    "artwork": "https://cdn2.steamgriddb.com/grid/9ca4292f040b141fd182d5028f27e503.png",
+    "wider_screen": "https://cdn2.steamgriddb.com/grid/49182c9c43ab11c64551eabbef51beb5.png",
+    "hero": "https://cdn2.steamgriddb.com/hero/c137d9bfad46b1ebcc9b3f06e6eb5683.png",
+    "logo": "https://cdn2.steamgriddb.com/logo/a3f2ad23852a72af62ecb68eb765b281.png"
   },
   "Lethal company": {
     "artwork": "https://example.com/mc_vertical.png",
