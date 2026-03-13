@@ -1,1 +1,16 @@
 
+
+{
+  "R.E.P.O": {
+    "artwork": "https://example.com/ow2_vertical.png",
+    "wider_screen": "https://example.com/ow2_wide.png",
+    "hero": "https://example.com/ow2_hero.png",
+    "logo": "https://example.com/ow2_logo.png"
+  },
+  "Lethal company": {
+    "artwork": "https://example.com/mc_vertical.png",
+    "wider_screen": "https://example.com/mc_wide.png",
+    "hero": "https://example.com/mc_hero.png",
+    "logo": "https://example.com/mc_logo.png"
+  }
+}
