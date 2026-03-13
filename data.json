@@ -7,10 +7,10 @@
     "hero": "https://cdn2.steamgriddb.com/hero/c137d9bfad46b1ebcc9b3f06e6eb5683.png",
     "logo": "https://cdn2.steamgriddb.com/logo/a3f2ad23852a72af62ecb68eb765b281.png"
   },
-  "Lethal company": {
-    "artwork": "https://example.com/mc_vertical.png",
-    "wider_screen": "https://example.com/mc_wide.png",
-    "hero": "https://example.com/mc_hero.png",
-    "logo": "https://example.com/mc_logo.png"
+  "Lethal Company": {
+    "artwork": "https://cdn2.steamgriddb.com/grid/14c9abe3915989a7cec0ffcc9fe5aed1.png",
+    "wider_screen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1966720/capsule_231x87.jpg",
+    "hero": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1966720/4e1706e418634fb762001498434bc6b0fe2ed40f/library_hero.jpg",
+    "logo": "https://cdn2.steamgriddb.com/logo/cc189ac0d80bf2fd24b182030f707664.png"
   }
 }
