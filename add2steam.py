@@ -8,11 +8,16 @@ import zlib
 import ctypes
 import subprocess
 import threading
+import webbrowser
 from PIL import Image, ImageTk
 from io import BytesIO
 
 DEFAULT_STEAM_PATH = "C:\\Program Files (x86)\\Steam"
 DEFAULT_JSON_URL = "https://raw.githubusercontent.com/v7upSln/Add2Steam/refs/heads/main/data.json"
+
+CURRENT_VERSION = "1.0.1"
+VERSION_URL = "https://raw.githubusercontent.com/v7upSln/Add2Steam/main/version.txt"
+REPO_URL = "https://github.com/v7upSln/Add2Steam/releases"
 
 PREVIEW_SIZES = {
     "grid":     (230, 107),
@@ -69,6 +74,34 @@ class SteamShortcutApp:
 
         self.log("[*] Application initialized.")
         self.auto_detect_userid()
+        self.root.after(100, self.check_for_update)
+
+    def check_for_update(self):
+        threading.Thread(target=self._check_update_thread, daemon=True).start()
+
+    def _check_update_thread(self):
+        try:
+            resp = requests.get(VERSION_URL, timeout=5)
+            if resp.status_code != 200:
+                return
+            latest = resp.text.strip()
+            if not latest:
+                return
+            def version_tuple(v):
+                return tuple(map(int, v.split('.')))
+            if version_tuple(latest) > version_tuple(CURRENT_VERSION):
+                self.root.after(0, self._show_update_dialog, latest)
+        except Exception:
+            pass
+
+    def _show_update_dialog(self, latest_version):
+        if messagebox.askyesno(
+            "Update Available",
+            f"A new version ({latest_version}) is available.\n"
+            f"You are using {CURRENT_VERSION}.\n\n"
+            "Do you want to open the releases page to download it?"
+        ):
+            webbrowser.open(REPO_URL)
 
     def setup_ui(self):
         pad = {"padx": 10, "pady": 5}
