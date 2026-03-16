@@ -18,5 +18,11 @@
     "wider_screen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/202970/capsule_231x87.jpg",
     "hero": "https://cdn2.steamgriddb.com/hero/c442cee951d9997cb50e94c0d46f1226.png",
     "logo": "https://cdn2.steamgriddb.com/logo/d1138551e9d69e06ac09c0f71a37cbf1.png"
+  },
+  "Plutonium Launcher": {
+    "artwork": "https://cdn2.steamgriddb.com/grid/52e978a6c043217dafcb575f6aab193d.png",
+    "wider_screen": "https://cdn2.steamgriddb.com/grid/c6ed32061f8544377dd8d52180c8d8e4.png",
+    "hero": "https://cdn2.steamgriddb.com/hero/ed376ba445937786419022f9eea069d1.png",
+    "logo": "https://cdn2.steamgriddb.com/logo/cb72c20423ed31ca887f85b1405fe843.png"
   }
 }
