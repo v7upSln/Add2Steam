@@ -36,5 +36,11 @@
     "wider_screen": "https://cdn2.steamgriddb.com/grid/788e5d0b7d1ee74170101de1d04b4e9b.png",
     "hero": "https://cdn2.steamgriddb.com/hero/964e7520947a0d3ac39504daea604d83.png",
     "logo": "https://cdn2.steamgriddb.com/logo/ff38348a5adb1889dd55c7ccba583c43.png"
+  },
+  "Marvel’s Spider-Man Remastered": {
+    "artwork": "https://cdn2.steamgriddb.com/grid/a85d6bc329aeaf43fe76fbb48b8b9325.png",
+    "wider_screen": "https://cdn2.steamgriddb.com/grid/63366f64d96e50e7f74b763cbfbba1fc.png",
+    "hero": "https://cdn2.steamgriddb.com/hero/37fa218b0b8b9e57d0e25209c5dbe86b.jpg",
+    "logo": "https://cdn2.steamgriddb.com/logo/aa6b0fa969e5b4b7e097ef929cddbc0b.png"
   }
 }
