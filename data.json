@@ -30,5 +30,11 @@
     "wider_screen": "https://cdn2.steamgriddb.com/grid/1c9014141dddcf3142cf61864d51c0a0.png",
     "hero": "https://cdn2.steamgriddb.com/hero/6e2559b077897e54a426cbdbd0bb05cc.png",
     "logo": "https://cdn2.steamgriddb.com/logo/caad81ebb701ccc8e872e601af4f56d1.png"
+  },
+  "Red Dead Redemption II": {
+    "artwork": "https://cdn2.steamgriddb.com/grid/b4c51714c6845550e6d8f849a994e611.png",
+    "wider_screen": "https://cdn2.steamgriddb.com/grid/788e5d0b7d1ee74170101de1d04b4e9b.png",
+    "hero": "https://cdn2.steamgriddb.com/hero/964e7520947a0d3ac39504daea604d83.png",
+    "logo": "https://cdn2.steamgriddb.com/logo/ff38348a5adb1889dd55c7ccba583c43.png"
   }
 }
