@@ -42,5 +42,11 @@
     "wider_screen": "https://cdn2.steamgriddb.com/grid/63366f64d96e50e7f74b763cbfbba1fc.png",
     "hero": "https://cdn2.steamgriddb.com/hero/37fa218b0b8b9e57d0e25209c5dbe86b.jpg",
     "logo": "https://cdn2.steamgriddb.com/logo/aa6b0fa969e5b4b7e097ef929cddbc0b.png"
+  },
+  "Outlast": {
+    "artwork": "https://cdn2.steamgriddb.com/grid/25644b95de790aea9e0cb3d19b17a945.png",
+    "wider_screen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/238320/capsule_231x87.jpg?t=1666817106",
+    "hero": "https://cdn2.steamgriddb.com/hero/f9496bec8992e114430ea7d585b64943.png",
+    "logo": "https://cdn2.steamgriddb.com/logo/a4bc4f2ca738fc2d5377a713c2ea5cec.png"
   }
 }
