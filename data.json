@@ -48,5 +48,11 @@
     "wider_screen": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/238320/capsule_231x87.jpg?t=1666817106",
     "hero": "https://cdn2.steamgriddb.com/hero/f9496bec8992e114430ea7d585b64943.png",
     "logo": "https://cdn2.steamgriddb.com/logo/a4bc4f2ca738fc2d5377a713c2ea5cec.png"
+  },
+  "Ready Or Not": {
+    "artwork": "https://cdn2.steamgriddb.com/grid/2bfb75db661ef86bac5fe1eed288426c.png",
+    "wider_screen": "https://cdn2.steamgriddb.com/grid/dcb06a0320f42944a47fbfbcb4521ecf.png",
+    "hero": "https://cdn2.steamgriddb.com/hero/f7f7eddc6c81fa096ae87e0ba025499a.png",
+    "logo": "https://cdn2.steamgriddb.com/logo/450db76511affed7e9bd573ef4b10515.png"
   }
 }
